@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #ffafbd, #ffc3a0);
+    margin: 0;
+}
+
+/* Registration Form Container */
+.container {
+    background: #fff0f5;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 370px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
+
+/* Heading */
+h2 {
+    color: #d63384;
+    font-size: 24px;
+}
+
+/* Input Fields */
+input {
+    width: 350px;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #ff80ab;
+    border-radius: 8px;
+    outline: none;
+    background: #fff5f8;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #d63384;
+}
+
+/* Submit Button */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #d63384;
+}
+
+/* Messages */
+.success {
+    color: #28a745;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.error {
+    color: #e6005c;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+}
